@@ -1,12 +1,10 @@
 // microwatch
-"use strict"
-
-microtime = require('microtime')
 
 function microwatch(isDouble) {
-	self    = this
-	_double = (isDouble)
-	_begin  = 0
+	self       = this
+	microtime  = require('microtime')
+	_double    = (isDouble)
+	_begin     = 0
 	
 	self.start = function() {
 		_begin = (_double) ? microtime.nowDouble()          : microtime.now()
