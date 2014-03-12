@@ -1,6 +1,6 @@
 {
   "name": "microwatch",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Stopwatch with microseconds (1/1000th of millisecond) resolution",
   "main": "index.js",
   "scripts": {
