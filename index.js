@@ -1,4 +1,6 @@
 // microwatch
+"use strict"
+
 microtime = require('microtime')
 
 function microwatch(isDouble) {
